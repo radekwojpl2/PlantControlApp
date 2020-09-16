@@ -1,8 +1,14 @@
+import { TopNavigationModule } from './feature/top-navigation/top-navigation.module';
+import { WaterLevelModule } from './feature/water-level/water-level.module';
+import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import {SharedModule} from '../app/shared/shared.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -10,7 +16,12 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule,
+    CoreModule,
+    WaterLevelModule,
+    TopNavigationModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
