@@ -29,4 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## MOCK JSON SERVER 
 
 For mock api use this command 
- json-server --watch .\src\app\core\services\db.json
+
+npm install -g json-server
+json-server --watch .\src\app\core\services\db.json
