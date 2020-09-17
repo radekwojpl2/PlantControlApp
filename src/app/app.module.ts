@@ -1,5 +1,5 @@
+import { PlantsMeasurementsModule } from './feature/plants-measurements/plants-measurements.module';
 import { TopNavigationModule } from './feature/top-navigation/top-navigation.module';
-import { WaterLevelModule } from './feature/water-level/water-level.module';
 import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -19,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     SharedModule,
     CoreModule,
-    WaterLevelModule,
+    PlantsMeasurementsModule,
     TopNavigationModule,
     HttpClientModule 
   ],

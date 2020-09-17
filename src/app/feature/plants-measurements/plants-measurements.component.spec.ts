@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WaterLevelComponent } from './water-level.component';
+import { PlantsMeasurementsComponent } from './plants-measurements.component';
 
-describe('WaterLevelComponent', () => {
-  let component: WaterLevelComponent;
-  let fixture: ComponentFixture<WaterLevelComponent>;
+describe('PlantsMeasurementsComponent', () => {
+  let component: PlantsMeasurementsComponent;
+  let fixture: ComponentFixture<PlantsMeasurementsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WaterLevelComponent ]
+      declarations: [ PlantsMeasurementsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WaterLevelComponent);
+    fixture = TestBed.createComponent(PlantsMeasurementsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -10,16 +10,12 @@ export class AppComponent implements OnInit {
 /**
  *
  */
-constructor(private service: MeasurementService) {
+constructor() {
   
 }
 
   ngOnInit(): void {
 
-    this.service.getMeasurement().subscribe(
-      x => console.log(x)
-    )
-
+    
   }
-  title = 'control-app';
 }

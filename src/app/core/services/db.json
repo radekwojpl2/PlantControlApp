@@ -13,13 +13,13 @@
                 "humidity": 0.5
               }
             ],
-            "water_level": 0.3,
+            "waterLevel": 0.3,
             "temperature": 28.05,
             "humidity": 50.12
           },
           {
             "id": 2,
-            "time": 1023002032,
+            "time": 1600347165,
             "plantsReading": [
               {
                 "sensor": 1,
@@ -30,7 +30,7 @@
                 "humidity": 0.5
               }
             ],
-            "water_level": 0.3,
+            "waterLevel": 0.3,
             "temperature": 28.05,
             "humidity": 50.12
           }

@@ -2,8 +2,9 @@
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">Water Level</h4>
-        <p class="card-text">80 %</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text">{{waterLevel}}</p>
+        <!-- TODO: Hard coded 1000, date here have to be in milliseconds  -->
+        <p class="card-text"><small class="text-muted">Last updated {{time * 1000 | date :'medium'}}</small></p> 
       </div>
     </div>
     <div class="card">
